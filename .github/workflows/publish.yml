@@ -120,11 +120,11 @@ jobs:
       
       - name: Pack
         run: |
-          dotnet pack
+          dotnet pack -o build
 
       - name: Publish
         run: |
-          dotnet nuget push "./dynamo-util/bin/Release/dynamo-util.${{ env.NEXT_VERSION_NO_PREFIX }}.nupkg" -k ${{ secrets.NUGET_API_KEY }}
+          dotnet nuget push "./build/dynamo-util.${{ env.NEXT_VERSION_NO_PREFIX }}.nupkg" -k ${{ secrets.NUGET_API_KEY }}
 
       - name: Cleanup
         if: always()
