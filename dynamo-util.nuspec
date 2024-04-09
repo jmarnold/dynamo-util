@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dynamo-util</id>
+    <version>0.0.0.0</version>
+    <owners>Josh Arnold</owners>
+    <title>dynamo-util</title>
+    <authors>Josh Arnold</authors>
+    <projectUrl>https://github.com/jmarnold/dynamo-util</projectUrl>
+    <licenseUrl>https://github.com/jmarnold/dynamo-util/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/jmarnold/dynamo-util</projectSourceUrl>
+    <docsUrl>https://github.com/jmarnold/dynamo-util</docsUrl>
+    <bugTrackerUrl>https://github.com/jmarnold/dynamo-util/issues</bugTrackerUrl>
+    <tags>dynamodb utils</tags>
+    <summary>Provides loading of data into dynamo from local files</summary>
+    <description>Provides loading of data into dynamo from local files</description>
+  </metadata>
+  <files>
+    <file src="dynamo-util/bin/Release/net8.0/**" />
+  </files>
+</package>
