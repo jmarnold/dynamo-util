@@ -1,4 +1,4 @@
-name: Scheduler Build
+name: Dynamo Util Build
 
 on:
   push:
