@@ -117,7 +117,7 @@ jobs:
 
       - name: Publish
         run: |
-          find ./**/*.nupkg | dotnet nuget push "{}" -k ${{ secrets.NUGET_API_KEY }}
+          dotnet nuget push ./dynamo-util/bin/Release/dynamo-util.${{ env.NEXT_VERSION_NO_PREFIX }}.nupkg -k ${{ secrets.NUGET_API_KEY }}
 
       - name: Cleanup
         if: always()
