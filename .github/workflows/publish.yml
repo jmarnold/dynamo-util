@@ -113,7 +113,7 @@ jobs:
       
       - name: Pack
         run: |
-          dotnet nuget pack
+          dotnet pack
 
       - name: Publish
         run: |
