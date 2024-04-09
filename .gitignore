@@ -1,0 +1,8 @@
+bin
+obj
+.vs*
+**/**/.DS_STORE
+*.user
+*.trx
+build
+.idea
